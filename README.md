@@ -12,13 +12,13 @@ I'm a computer science student at UVA Engineering with a strong interest in data
 - Research & applied AI for education and healthcare
 
 ### Hobbies & Personal Interests
-- Weightlifting & golf
-- Motorsports & sim racing
+- Weightlifting & golf ⛳
+- Motorsports & sim racing 🏎️
 - Cooking
 
 ---
 
-## Projects
+## Completed Projects
 
 ### Dermadvisor (https://github.com/elliotSchmango/Dermadvisor)
 A mobile skin condition classifier app built with React Native + AWS + Express
@@ -48,9 +48,9 @@ Role-based HR dashboard to optimize personnel assignment across projects
 
 ---
 
-## Currently Working On
+## Projects I'm Currently Working On
 
-### Streaming-Service ()
+### Streaming-Service (https://github.com/elliotSchmango/Streaming-Service)
 A mock streaming platform built with React and Django, developed by a team using Agile and sprint-based workflows
 - Simulates Netflix-style features including video browsing, playback, and user profiles
 - Includes auth, watch history, favorites, and role-based admin controls
