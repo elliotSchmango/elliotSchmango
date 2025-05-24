@@ -33,7 +33,7 @@ Technology lending system for a library
 - Led requirements gathering and stakeholder interviews  
 - Implemented ticketing logic and borrowing workflows  
 
-### WaterChatBot (Internship, HRSD)
+### WaterBot (Internship, HRSD)
 Multimodal assistant for water plant engineers
 - Built with React (Vite) frontend and Django backend, integrated via REST API
 - Uses Llamafile’s Llama3.2-3B model for local inference with no external API calls for security
