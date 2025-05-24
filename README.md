@@ -35,9 +35,11 @@ Technology lending system for a library
 
 ### WaterChatBot (Internship, HRSD)
 Multimodal assistant for water plant engineers
-- LLaMA-based RAG chatbot to analyze plant documents and schematics  
-- Used BLIP-2 for chart interpretation and Amazon Textract for OCR
-- Deployed with React + Django stack, integrating with Microsft Azure for authentication/company security
+- Built with React (Vite) frontend and Django backend, integrated via REST API
+- Uses Llamafile’s Llama3.2-3B model for local inference with no external API calls for security
+- Supports Retrieval-Augmented Generation (RAG) and iterative Co-RAG querying for improved contextual understanding
+- Uses BLIP-2 for chart interpretation and AWS Amazon Textract for OCR
+- Integrates with Microsft Azure for authentication/company security
 
 ### HR Dashboard (Internship, Save The Children International)
 Role-based HR dashboard to optimize personnel assignment across projects
@@ -45,6 +47,20 @@ Role-based HR dashboard to optimize personnel assignment across projects
 - Designed and implemented a custom algorithm inspired by bipartite matching
 - Matched staff to initiatives based on Level of Effort (LOE), hiring status, and project budgets
 - Built dynamic dashboards with secure login, LOE tracking, and administrative controls
+  
+### SnapSave Banking (https://github.com/elliotSchmango/snapsave_banking)
+Finance-tech project for managing personal and business expenses
+- Built with Next.js and React frontend for responsive user experience
+- Integrated Plaid API for secure banking data aggregation
+- Implemented Appwrite Authentication and Sentry for security and error monitoring
+- Designed for extensibility with future transaction categorization and budgeting tools
+
+### Querious (https://github.com/elliotSchmango/Querious)
+A local document-based chatbot built with Streamlit, Ollama, and LangChain
+- Lets users upload and query their own PDFs using a fully local RAG pipeline
+- Uses LangChain to chunk and embed documents into a vector store for semantic search
+- Runs a locally hosted LLM via Ollama to generate context-aware responses
+- Prioritizes offline use and privacy with no cloud dependencies
 
 ---
 
