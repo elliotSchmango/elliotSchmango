@@ -2,14 +2,14 @@
 # Elliot Hong
 
 ## About Me
-I'm a computer science student at UVA Engineering with a strong interest in data analytics (particularly machine learning), cloud-based solutions, and building software tools that help people. I'm passionate about using technology to create accessible, inclusive, and practical solutions—especially in the health and education spaces.
+I'm a computer science student at UVA Engineering with a strong interest in data analytics (particularly machine learning), cloud-based solutions, and building software tools that help people. I'm passionate about using technology to create accessible, inclusive, and practical solutions—especially within social science and humanitarian contexts
 
-### Academic & Career Interests
+### Current Academic & Career Interests
 - Machine Learning & Deep Learning (esp. LLMs & computer vision)
 - Mobile/Webdev development with React Native/Expo, React JS, Django, Flask
-- Cloud engineering (AWS / GCP)
+- Cloud engineering (AWS/GCP)
 - Human-centered software design
-- Research & applied AI for education and healthcare
+- Research & applied AI in finance, education, environment, and health
 
 ### Hobbies & Personal Interests
 - Weightlifting & golf ⛳
