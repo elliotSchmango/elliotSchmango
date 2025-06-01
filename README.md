@@ -5,7 +5,7 @@
 I'm a computer science student at UVA Engineering with a strong interest in data analytics (particularly machine learning), cloud-based solutions, and building software tools that help people.
 
 ### Current Academic & Career Interests
-- Machine Learning & Deep Learning (esp. LLMs & computer vision)
+- Machine Learning & Deep Learning (esp. LLMs & analytics)
 - Mobile/Webdev development with React Native/Expo, React JS, Django, Flask
 - Cloud engineering (AWS/GCP)
 - Research & applied AI in finance, education, environment, and health
@@ -30,7 +30,14 @@ Technology lending system for a library
 - Worked as the requirements manager in an agile development scrum-based team.
 - Built with Django backend and Tailwind frontend  
 - Led requirements gathering and stakeholder interviews  
-- Implemented ticketing logic and borrowing workflows  
+- Implemented ticketing logic and borrowing workflows
+
+### Virginia Population Analysis (https://github.com/elliotSchmango/Virginia-Population-Analysis)
+Data science project analyzing population trends across Virginia counties  
+- Collected and cleaned multi-year demographic data from the Virginia Open Data Portal  
+- Built regression and time-series models (LSTM, polynomial regression) to forecast county-level population shifts  
+- Used PCA for dimensionality reduction and K-Means clustering for pattern discovery across regions  
+- Visualized trends and anomalies using Matplotlib and Seaborn to inform future infrastructure planning
 
 ### WaterBot (Internship, HRSD)
 Multimodal assistant for water plant engineers
