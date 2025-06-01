@@ -39,7 +39,7 @@ Data science project analyzing population trends across Virginia counties
 - Used PCA for dimensionality reduction and K-Means clustering for pattern discovery across regions  
 - Visualized trends and anomalies using Matplotlib and Seaborn to inform future infrastructure planning
 
-### WaterBot (Internship, HRSD)
+### WaterBot (Internship, HRSD, https://github.com/elliotSchmango/HRSD_LLM)
 Multimodal assistant for water plant engineers
 - Built with React (Vite) frontend and Django backend, integrated via REST API
 - Uses Llamafile’s Llama3.2-3B model for local inference with no external API calls for security
@@ -47,7 +47,7 @@ Multimodal assistant for water plant engineers
 - Uses BLIP-2 for chart interpretation and AWS Amazon Textract for OCR
 - Integrates with Microsft Azure for authentication/company security
 
-### HR Dashboard (Internship, Save The Children International)
+### HR Dashboard (Internship, Save The Children International, Repository is kept Private in the Organization)
 Role-based HR dashboard to optimize personnel assignment across projects
 - Tech Stack: React.js, Django, and MongoDB
 - Designed and implemented a custom algorithm inspired by bipartite matching
