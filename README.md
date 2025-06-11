@@ -72,6 +72,15 @@ A local document-based chatbot built with Streamlit, Ollama, and LangChain
 
 ## Projects I'm Currently Working On
 
+### STOMP (https://github.com/elliotSchmango/STOMP)
+**S**calable **T**elemetry & **O**perations **M**L **P**latform is a secure, containerized microservices platform for anomaly detection and alerting in telemetry data. Inspired by mission-critical systems used in defense, utilities, and autonomous ops.
+- Modular microservice architecture enables independent scaling and high availability
+  - Built with FastAPI services for authentication (JWT) and strict role-based access control (RBAC)
+  - Simulates real-time telemetry streams (process failures/custom metrics) with injected anomalies
+  - Uses ML-based anomaly detection to flag abnormal patterns in operational data
+  - Includes Prometheus monitoring, Grafana dashboards, email alerts, and centralized logging (Fluentd)
+- Cloud-compatible with Dockerized services, AWS deployment, and load balancing support
+
 ### Streaming-Service (https://github.com/elliotSchmango/Streaming-Service)
 A mock streaming platform built with React and Django, developed by a team using Agile and sprint-based workflows
 - Simulates Netflix-style features including video browsing, playback, and user profiles
