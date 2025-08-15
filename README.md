@@ -19,6 +19,13 @@ I'm a computer science student at UVA Engineering with a strong interest in data
 
 ## Completed Projects
 
+### EAGLE – Edge Anomaly Guard for Local Environments (Internship, HRSD, Repository Private)
+Offline, edge-based industrial anomaly detection system for water infrastructure monitoring
+- Built with NVIDIA Jetson Orin Nano, PyQt5, and ONNX/TensorRT for real-time inference without cloud dependency
+- Designed a modular, configurable pipeline integrating an unsupervised autoencoder for anomaly detection and a MobileNetV2 classifier for semantic labeling (Corrosion, Leak, Fire, Human, Unknown)
+- Implemented servo-controlled 3×3 pan/tilt zone scanning with live status feedback via touchscreen GUI
+- Fully offline and field-deployable, meeting strict security requirements for industrial environments
+
 ### Dermadvisor (https://github.com/elliotSchmango/Dermadvisor)
 A mobile skin condition classifier app built with React Native + AWS + Express
 - Uses AWS SageMaker-hosted ResNet18 model to diagnose skin conditions from photos  
@@ -47,7 +54,7 @@ Multimodal assistant for water plant engineers
 - Uses BLIP-2 for chart interpretation and AWS Amazon Textract for OCR
 - Integrates with Microsft Azure for authentication/company security
 
-### HR Dashboard (Internship, Save The Children International, Repository is kept Private in the Organization)
+### HR Dashboard (Internship, Save The Children International, Repository Private)
 Role-based HR dashboard to optimize personnel assignment across projects
 - Tech Stack: React.js, Django, and MongoDB
 - Designed and implemented a custom algorithm inspired by bipartite matching
@@ -93,7 +100,7 @@ A mock streaming platform built with React and Django, developed by a team using
 ## Certificates
 - GCP Associate Cloud Engineer - In Progress
 - AWS Certified Solutions Architect - Associate: In Progress
-- AWS Certified Cloud Practitioner: 2025
+- AWS Certified Cloud Practitioner - In Progress
 - PCEP Certified Entry-Level Python Programmer: 2023
 
 ---
