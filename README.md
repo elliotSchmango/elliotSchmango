@@ -13,6 +13,7 @@ I'm a computer science student at UVA Engineering with a strong interest in data
 ### Hobbies & Personal Interests
 - Weightlifting & golf ⛳
 - Motorsports & sim racing 🏎️
+- Guitar
 - Cooking
 
 ---
