@@ -20,7 +20,7 @@ I'm a computer science student at UVA Engineering with a strong interest in data
 
 ## Completed Projects
 
-### EAGLE – Edge Anomaly Guard for Local Environments (Internship, HRSD, Repository Private)
+### WWTP-ADS (Waste Water Treatment Plant - Anomaly Detection System) (HRSD, Repository Private)
 Offline, edge-based industrial anomaly detection system for water infrastructure monitoring
 - Built with NVIDIA Jetson Orin Nano, PyQt5, and ONNX/TensorRT for real-time inference without cloud dependency
 - Designed a modular, configurable pipeline integrating an unsupervised autoencoder for anomaly detection and a MobileNetV2 classifier for semantic labeling (Corrosion, Leak, Fire, Human, Unknown)
@@ -47,7 +47,7 @@ Data science project analyzing population trends across Virginia counties
 - Used PCA for dimensionality reduction and K-Means clustering for pattern discovery across regions  
 - Visualized trends and anomalies using Matplotlib and Seaborn to inform future infrastructure planning
 
-### WaterBot (Internship, HRSD, https://github.com/elliotSchmango/HRSD_LLM)
+### WaterBot (HRSD, https://github.com/elliotSchmango/HRSD_LLM)
 Multimodal assistant for water plant engineers
 - Built with React (Vite) frontend and Django backend, integrated via REST API
 - Uses Llamafile’s Llama3.2-3B model for local inference with no external API calls for security
