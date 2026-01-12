@@ -20,12 +20,12 @@ I'm a computer science student at UVA Engineering with a strong interest in ML s
 
 ## Completed Projects
 
-### WWTP-ADS (Waste Water Treatment Plant - Anomaly Detection System) (HRSD, Repository Private)
-Offline, edge-based industrial anomaly detection system for water infrastructure monitoring
-- Built with NVIDIA Jetson Orin Nano, PyQt5, and ONNX/TensorRT for real-time inference without cloud dependency
-- Designed a modular, configurable pipeline integrating an unsupervised autoencoder for anomaly detection and a MobileNetV2 classifier for semantic labeling (Corrosion, Leak, Fire, Human, Unknown)
-- Implemented servo-controlled 3×3 pan/tilt zone scanning with live status feedback via touchscreen GUI
-- Fully offline and field-deployable, meeting strict security requirements for industrial environments
+### WWTP-ADS (Waste Water Treatment Plant - Anomaly Detection System, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
+Anomaly detection system for water infrastructure monitoring
+- Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (NUC, Pi, Laptop).
+- Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 1.5 Pro for zero-shot anomaly classification.
+- Modern Tech Stack: Replaced legacy PyQt5/I2C controls with a reactive Streamlit web dashboard and universal ONVIF/RTSP standards for commercial security cameras.
+- Advanced Reliability: Implemented thread-safe state management and a rigorous "One-Shot" benchmarking framework for validating detection sensitivity in dynamic water environments.
 
 ### Dermadvisor (https://github.com/elliotSchmango/Dermadvisor)
 A mobile skin condition classifier app built with React Native + AWS + Express
