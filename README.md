@@ -22,8 +22,8 @@ I'm a computer science student at UVA Engineering with a strong interest in ML s
 
 ### WWTP-ADS (HRSD, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
 **W**aste **W**ater **T**reatment **P**lant - **A**nomaly **D**etection **S**ystem for water infrastructure monitoring
-- Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (NUC, Pi, Laptop).
-- Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 1.5 Pro for zero-shot anomaly classification.
+- Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (JetPack, Linux, Windows, etc).
+- Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 3 Pro for zero-shot anomaly classification.
 - Modern Tech Stack: Replaced legacy PyQt5/I2C controls with a reactive Streamlit web dashboard and universal ONVIF/RTSP standards for commercial security cameras.
 - Advanced Reliability: Implemented thread-safe state management and a rigorous "One-Shot" benchmarking framework for validating detection sensitivity in dynamic water environments.
 
