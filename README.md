@@ -18,14 +18,34 @@ I'm a computer science student at UVA Engineering with a strong interest in ML s
 
 ---
 
-## Completed Projects
+## Projects I'm Currently Working On
 
-### WWTP-ADS (Waste Water Treatment Plant - Anomaly Detection System, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
+### WWTP-ADS (Waste Water Treatment Plant Anomaly Detection System, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
 Anomaly detection system for water infrastructure monitoring
 - Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (NUC, Pi, Laptop).
 - Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 1.5 Pro for zero-shot anomaly classification.
 - Modern Tech Stack: Replaced legacy PyQt5/I2C controls with a reactive Streamlit web dashboard and universal ONVIF/RTSP standards for commercial security cameras.
 - Advanced Reliability: Implemented thread-safe state management and a rigorous "One-Shot" benchmarking framework for validating detection sensitivity in dynamic water environments.
+
+### STOMP (https://github.com/elliotSchmango/STOMP)
+**S**calable **T**elemetry & **O**perations **M**L **P**latform is a secure, containerized microservices platform for anomaly detection and alerting in telemetry data. Inspired by mission-critical systems used in defense, utilities, and autonomous ops.
+- Modular microservice architecture enables independent scaling and high availability
+  - Built with FastAPI services for authentication (JWT) and strict role-based access control (RBAC)
+  - Simulates real-time telemetry streams (process failures/custom metrics) with injected anomalies
+  - Uses ML-based anomaly detection to flag abnormal patterns in operational data
+  - Includes Prometheus monitoring, Grafana dashboards, email alerts, and centralized logging (Fluentd)
+- Cloud-compatible with Dockerized services, AWS deployment, and load balancing support
+
+### Streaming-Service (https://github.com/elliotSchmango/Streaming-Service)
+A mock streaming platform built with React and Django, developed by a team using Agile and sprint-based workflows
+- Simulates Netflix-style features including video browsing, playback, and user profiles
+- Includes auth, watch history, favorites, and role-based admin controls
+- Developing with a 6-sprint Agile process and clearly defined roles (Scrum Master, DevOps, Testing, Requirements)
+- AWS used for cloud storage (S3) and deployment, with CI/CD pipeline integration
+
+---
+
+## Completed Projects
 
 ### Dermadvisor (https://github.com/elliotSchmango/Dermadvisor)
 A mobile skin condition classifier app built with React Native + AWS + Express
@@ -75,26 +95,6 @@ A local document-based chatbot built with Streamlit, Ollama, and LangChain
 - Uses LangChain to chunk and embed documents into a vector store for semantic search
 - Runs a locally hosted LLM via Ollama to generate context-aware responses
 - Prioritizes offline use and privacy with no cloud dependencies
-
----
-
-## Projects I'm Currently Working On
-
-### STOMP (https://github.com/elliotSchmango/STOMP)
-**S**calable **T**elemetry & **O**perations **M**L **P**latform is a secure, containerized microservices platform for anomaly detection and alerting in telemetry data. Inspired by mission-critical systems used in defense, utilities, and autonomous ops.
-- Modular microservice architecture enables independent scaling and high availability
-  - Built with FastAPI services for authentication (JWT) and strict role-based access control (RBAC)
-  - Simulates real-time telemetry streams (process failures/custom metrics) with injected anomalies
-  - Uses ML-based anomaly detection to flag abnormal patterns in operational data
-  - Includes Prometheus monitoring, Grafana dashboards, email alerts, and centralized logging (Fluentd)
-- Cloud-compatible with Dockerized services, AWS deployment, and load balancing support
-
-### Streaming-Service (https://github.com/elliotSchmango/Streaming-Service)
-A mock streaming platform built with React and Django, developed by a team using Agile and sprint-based workflows
-- Simulates Netflix-style features including video browsing, playback, and user profiles
-- Includes auth, watch history, favorites, and role-based admin controls
-- Developing with a 6-sprint Agile process and clearly defined roles (Scrum Master, DevOps, Testing, Requirements)
-- AWS used for cloud storage (S3) and deployment, with CI/CD pipeline integration
 
 ---
 
