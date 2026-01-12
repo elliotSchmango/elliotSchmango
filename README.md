@@ -20,8 +20,8 @@ I'm a computer science student at UVA Engineering with a strong interest in ML s
 
 ## Projects I'm Currently Working On
 
-### WWTP-ADS (Waste Water Treatment Plant Anomaly Detection System, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
-Anomaly detection system for water infrastructure monitoring
+### WWTP-ADS (HRSD, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
+**W**aste **W**ater **T**reatment **P**lant - **A**nomaly **D**etection **S**ystem for water infrastructure monitoring
 - Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (NUC, Pi, Laptop).
 - Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 1.5 Pro for zero-shot anomaly classification.
 - Modern Tech Stack: Replaced legacy PyQt5/I2C controls with a reactive Streamlit web dashboard and universal ONVIF/RTSP standards for commercial security cameras.
