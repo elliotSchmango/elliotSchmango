@@ -2,13 +2,11 @@
 # Elliot Hong
 
 ## About Me
-I'm a computer science student at UVA Engineering with a strong interest in ML security, edge-to-cloud architectures, and building software tools that help people. Here's my personal website! https://elliotschmango.github.io/elliothong_aboutme/
+I'm a computer science student at UVA Engineering with a strong interest in AI security, edge-to-cloud architectures, and building software tools that help people. Here's my personal website! https://elliotschmango.github.io/elliothong_aboutme/
 
 ### Current Academic & Career Interests
+- AI Safety/Security
 - Machine Learning Sec (esp. LLMs & analytics)
-- Cloud engineering (AWS/GCP)
-- Mobile/Webdev development with React Native/Expo, React JS, Django, Flask
-- Computing research in various fields
 
 ### Hobbies & Personal Interests
 - Weightlifting & golf ⛳
