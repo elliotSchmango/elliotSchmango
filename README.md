@@ -2,15 +2,15 @@
 # Elliot Hong
 
 ## About Me
-I'm a computer science student at UVA Engineering with a strong interest in AI security, edge-to-cloud architectures, and building software tools that help people. Here's my personal website! https://elliotschmango.github.io/elliothong_aboutme/
+Alum from UVA Engineering with a strong interest in AI security, edge-to-cloud architectures, and building software tools that help people.
 
 ### Current Academic & Career Interests
 - AI Safety/Security
-- Machine Learning Sec (esp. LLMs & analytics)
+- Machine Learning Sec
 
 ### Hobbies & Personal Interests
 - Weightlifting & golf ⛳
-- Motorsports & sim racing 🏎️
+- Cars, motorsports, & sim racing 🏎️
 - Guitar
 - Cooking
 
@@ -18,32 +18,24 @@ I'm a computer science student at UVA Engineering with a strong interest in AI s
 
 ## Projects I'm Currently Working On
 
+### FUDGE-Suite (https://github.com/elliotSchmango/FUDGE-Suite)
+A standardized benchmarking framework for evaluating Federated Unlearning algorithms against diverse attack vectors.
+
+- Modular Architecture: Engineered a highly extensible PyTorch and Flower (flwr) pipeline, enabling researchers to seamlessly hot-swap custom aggregation strategies, unlearning algorithms (e.g., PGA), and threat models.
+- Decoupled Metrics Framework: Implemented an AISI Inspect-inspired telemetry architecture that entirely decouples evaluation scorers (e.g., Attack Success Rate, Clean Accuracy) from task execution, ensuring standardized benchmarking across arbitrary attacks.
+- Advanced Threat Modeling: Features a dynamic "Dual-Injection" threat engine that computes adversarial camouflage in-memory using Projected Gradient Descent (PGD) to evaluate vulnerabilities to active exploits like BadFU.
+- Robust In-Memory Execution: Overhauled legacy multi-process bottlenecks into a deterministic, single-process architecture, ensuring exact reproducibility and rapid iteration times across Ray-orchestrated virtual clients.
+
+---
+
+## Completed Projects
+
 ### WWTP-ADS (HRSD, https://github.com/elliotSchmango/wwtp-anomaly-detection-system)
 **W**aste **W**ater **T**reatment **P**lant - **A**nomaly **D**etection **S**ystem for water infrastructure monitoring
 - Deploy-Everywhere Architecture: Refactored from a rigid Jetson prototype to a fully Dockerized stack capable of running on standard x86/ARM hardware (JetPack, Linux, Windows, etc).
 - Hybrid AI Pipeline: Features a novel "Edge-to-Cloud" inference engine using a local SSIM-Denoising Autoencoder for real-time detection and Gemini 3 Pro for zero-shot anomaly classification.
 - Modern Tech Stack: Replaced legacy PyQt5/I2C controls with a reactive Streamlit web dashboard and universal ONVIF/RTSP standards for commercial security cameras.
 - Advanced Reliability: Implemented thread-safe state management and a rigorous "One-Shot" benchmarking framework for validating detection sensitivity in dynamic water environments.
-
-### STOMP (https://github.com/elliotSchmango/STOMP)
-**S**calable **T**elemetry & **O**perations **M**L **P**latform is a secure, containerized microservices platform for anomaly detection and alerting in telemetry data. Inspired by mission-critical systems used in defense, utilities, and autonomous ops.
-- Modular microservice architecture enables independent scaling and high availability
-  - Built with FastAPI services for authentication (JWT) and strict role-based access control (RBAC)
-  - Simulates real-time telemetry streams (process failures/custom metrics) with injected anomalies
-  - Uses ML-based anomaly detection to flag abnormal patterns in operational data
-  - Includes Prometheus monitoring, Grafana dashboards, email alerts, and centralized logging (Fluentd)
-- Cloud-compatible with Dockerized services, AWS deployment, and load balancing support
-
-### Streaming-Service (https://github.com/elliotSchmango/Streaming-Service)
-A mock streaming platform built with React and Django, developed by a team using Agile and sprint-based workflows
-- Simulates Netflix-style features including video browsing, playback, and user profiles
-- Includes auth, watch history, favorites, and role-based admin controls
-- Developing with a 6-sprint Agile process and clearly defined roles (Scrum Master, DevOps, Testing, Requirements)
-- AWS used for cloud storage (S3) and deployment, with CI/CD pipeline integration
-
----
-
-## Completed Projects
 
 ### Dermadvisor (https://github.com/elliotSchmango/Dermadvisor)
 A mobile skin condition classifier app built with React Native + AWS + Express
