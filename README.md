@@ -19,7 +19,7 @@ Alum from UVA Engineering with a strong interest in AI security, edge-to-cloud a
 ## Projects I'm Currently Working On
 
 ### FUDGE-Suite (https://github.com/elliotSchmango/FUDGE-Suite)
-A standardized benchmarking framework for evaluating Federated Unlearning algorithms against diverse attack vectors.
+**F**ederated **U**nlearning **D**ia**G**nostics & **E**valuator Suite: A standardized benchmarking framework for evaluating Federated Unlearning algorithms against diverse attack vectors.
 
 - Modular Architecture: Engineered a highly extensible PyTorch and Flower (flwr) pipeline, enabling researchers to seamlessly hot-swap custom aggregation strategies, unlearning algorithms (e.g., PGA), and threat models.
 - Decoupled Metrics Framework: Implemented an AISI Inspect-inspired telemetry architecture that entirely decouples evaluation scorers (e.g., Attack Success Rate, Clean Accuracy) from task execution, ensuring standardized benchmarking across arbitrary attacks.
