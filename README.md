@@ -81,12 +81,4 @@ A local document-based chatbot built with Streamlit, Ollama, and LangChain
 
 ---
 
-## Certificates
-- GCP Associate Cloud Engineer - In Progress
-- AWS Certified Solutions Architect - Associate: In Progress
-- AWS Certified Cloud Practitioner - In Progress
-- PCEP Certified Entry-Level Python Programmer: 2023
-
----
-
 Thanks for visiting my profile! Feel free to explore my repos or reach out.
