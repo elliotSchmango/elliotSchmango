@@ -71,13 +71,6 @@ Role-based HR dashboard to optimize personnel assignment across projects
 - Designed and implemented a custom algorithm inspired by bipartite matching
 - Matched staff to initiatives based on Level of Effort (LOE), hiring status, and project budgets
 - Built dynamic dashboards with secure login, LOE tracking, and administrative controls
-  
-### SnapSave Banking (https://github.com/elliotSchmango/snapsave_banking)
-Finance-tech project for managing personal and business expenses
-- Built with Next.js and React frontend for responsive user experience
-- Integrated Plaid API for secure banking data aggregation
-- Implemented Appwrite Authentication and Sentry for security and error monitoring
-- Designed for extensibility with future transaction categorization and budgeting tools
 
 ### Querious (https://github.com/elliotSchmango/Querious)
 A local document-based chatbot built with Streamlit, Ollama, and LangChain
